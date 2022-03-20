@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Crochet y Demos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="img/timido.png" sizes="64x64">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Una semana en París</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="itinerario.html">Itinerario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">#</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="doc/guia.pdf">Abrir guía de estilos (pdf)</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <div class="jumbotron">
+      <h3 class="font-weight-bold text-center text-black">Mi viaje a París - David Zapico</h3>
+    </div>
+    <div id="demo" class="carousel slide d-flex " data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/la-fallet.JPG" alt="Imagen desde la galería la fallet" class="container-fluid"> 
+          <div class="carousel-caption">
+            <h6 class=" bg-info font-weight-bold">Popi Frankestain</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/opera.jpg" alt="Cloudbreak" class="container-fluid">
+          <div class="carousel-caption">
+            <h6 class=" bg-info font-weight-bold">Zorro El Principito</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/montmatre.JPG" alt="zorro" class="container-fluid">
+          <div class="carousel-caption">
+            <h6 class=" bg-info font-weight-bold">Zorrito Dormilón</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/arco-triunfo.JPG" alt="cordero" class="container-fluid">
+          <div class="carousel-caption">
+            <h6 class=" bg-info font-weight-bold">Ehimy El cordero</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/torre-eiffel.jpg" alt="coniciervo" class="container-fluid">
+          <div class="carousel-caption">
+           <h6 class=" bg-info font-weight-bold">#coniciervo</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <section class="mx-auto col-md-8">
+      <div class="border border-grey rounded p-4 mb-4 mt-4">
+        <h3 class="font-weight-bold text-center bg-info text-white">Introducción</h3>
+        <article>
+          <p class="w-50 text-center mx-auto">
+            En este sitio web encontrarás información sobre los tips de amigurumis, marcas
+            de lana y ganchillos ademas de algunos de mis diseños y versiones de amigurumis
+          </p>
+        </article>
+      </div>
+    </section>
+    <footer class="bg-info">
+      <div class="container-fluid mt-3">
+        <div class="row jumbotron pt-4 pb-4 bg-dark">
+          <div class="col-md-6">
+            <h5 class="d-flex justify-content-center  text-white pt-2">Creado por Soraya Povedano Gallardo </h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
